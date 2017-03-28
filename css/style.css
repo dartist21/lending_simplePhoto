@@ -1,1 +1,463 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  fdfdfdfd */
+
+header {
+  background-image: url(../img/Livello1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 745px;
+  max-width: 1920px;
+}
+
+nav {
+	text-align: left;
+	padding-top: 40px;
+	padding-left: 21.3%;
+}
+
+.nav_list{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: GothamRounded;
+	font-weight: 700;
+	font-size: 16px;
+	font-style: normal;
+	letter-spacing: 2.4px;
+
+}
+
+.nav_list:first-child {
+	padding-right: 67px;
+}
+
+.nav_list:nth-child(2) {
+	padding-right: 102px;
+}
+
+.nav_list:nth-child(3) {
+	padding-right: 98px;
+}
+
+.nav_list:nth-child(4) {
+	padding-right: 79px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+.tagline {
+	padding-top: 241px;
+	position: relative;
+	text-align: center;
+}
+
+.tagline h2 {
+	color: #ffffff;
+	height: 32px;
+	font-family: GothamRounded;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 5.4px;
+	text-transform: uppercase;
+}
+
+.tagline p {
+	margin: 13px auto 26px auto;
+	color: #ffffff;
+	font-family: GothamRounded;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 2.4px;
+}
+
+.button_start {
+	width: 166px;
+	height: 49px;
+	border-radius: 3px;
+	background-color: #16a085;
+	text-transform: uppercase;
+	font-family: GothamRounded;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 1.8px;
+	border: 0;
+}
+
+.social {
+	padding-top: 222px;
+	margin-left: 46.17%;
+}
+
+.social img {
+	padding-right: 12px;
+}
+
+
+.get_started {
+	background-color: #f5f6f7;
+	height: 494px;
+	max-width: 1920px;
+	padding-left: 9.84%;
+	display: flex;
+  	justify-content: space-between;
+
+}
+.represent {
+	position: relative;
+	z-index: 2;
+}
+.represent h2 {
+	font-family: GothamRounded;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2.7px;
+	color: #16a085;
+	text-transform: uppercase;
+	padding-bottom: 41px;
+	padding-top: 113px;
+}
+
+.represent p {
+	font-family: GothamRounded-Book;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1.8px;
+	line-height: 2.0;
+	color: #373737;
+	padding-bottom: 40px;
+}
+
+.iphone_hand {
+	padding-top: 91.6px;
+	right: 123px;
+	z-index: 1;
+	position: relative;
+}
+
+.learn_more {
+	background-color: #ffffff;
+	height: 558px;
+	max-width: 1920px;
+	margin-left:9.8%;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+.iphone_green {
+	padding-top: 143px;
+	z-index: 1;
+	position: relative;
+}
+
+.design {
+	padding-top: 143px;
+	padding-right: 76px;
+	text-align: left;
+}
+
+.design h2 {
+	font-family: GothamRounded;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2.7px;
+	color: #16a085;
+	text-transform: uppercase;
+	padding-bottom: 36px;
+}
+
+.design p {
+	font-family: GothamRounded-Book;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1.8px;
+	line-height: 1.84;
+	color: #373737;
+	padding-bottom: 34px;
+}
+
+.button_green {
+	width: 192px;
+	background-color: #16a085;
+	text-transform: uppercase;
+	font-family: GothamRounded;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 1.8px;
+	border: 0;
+	padding-top: 23px;
+	padding-bottom: 18px;
+	margin-bottom: 39px;
+}
+
+.click p {
+	width: 43px;
+	font-family: GothamRounded;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 1.8px;
+	margin-bottom: 2px;
+	padding-bottom: 0px;
+}
+.click img:last-child {
+	margin-left: 18px;
+}
+
+.our_community {
+	position: relative;
+  background-color: #f5f6f7;
+  height: 483px;
+  max-width: 1920px;
+  z-index: 2;
+}
+
+.our_community_container {
+	 padding-top: 119px;
+	padding-bottom: 118px;
+	height: 244px;
+}
+
+.our_community_container div {
+	display: inline-block;
+	text-align: center;
+}
+
+.our_community_container div h2{
+	padding-top: 28px;
+	height: 13px;
+	font-family: GothamRounded;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2.4px;
+	text-align: left;
+	color: #373737;
+	text-transform: uppercase;
+}
+
+.our_community_container div p {
+	height: 34px;
+	font-family: GothamRounded;
+	font-size: 10px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 1.5px;
+	line-height: 1.2;
+	text-align: center;
+	color: #373737;
+	margin-top: 26px;
+}
+
+
+.our_community_container div:first-child {
+	margin-left: 10%;
+	margin-right: 76px;
+	position: relative;
+	top: -45px;
+}
+
+.our_community_container div:last-child {
+	margin-left: 20px;
+}
+
+.block_3 {
+  margin-top: 121px;
+  margin-bottom: 118px;
+  margin-left: 129px;
+  margin-right: 129px;
+  height: 244px;
+}
+
+.block_3_1 {
+  display: inline;
+}
+
+.block_3_2 {
+  display: inline;
+}
+
+.block_3_3 {
+  display: inline;
+}
+
+.subscribe {
+    background-image: url(../img/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+	padding-top: 350px;
+	padding-left: 31.48%;
+}
+
+.container_subscribe h2 {
+	font-family: GothamRounded;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 3.6px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.container_subscribe .button_subscribe  {
+	margin-top: 8px;
+	padding-left: 64px;
+
+}
+
+.container_subscribe .input_text {
+	width: 280px;
+	height: 13px;
+	background-color: #ffffff;
+	width: 125px;
+	font-family: GothamRounded;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 2.4px;
+	text-align: left;
+	padding: 24px 133px 23px 22px;
+	border: 0;
+}
+.container_subscribe .check_in {
+	height: 60px;
+	width: 63px;
+	background-color: #16a085;
+	border: 0;
+	top: 22px;
+	right: 4px;
+	position: relative;
+
+}
+
+.download {
+  background-color: #f5f6f7;
+  height: 396px;
+}
+
+.download_container {
+
+}
+
+footer {
+  background-color: #ffffff;  /* хз */
+  height: 131px;
+  margin-left:9.84%;
+  margin-right: 10.02%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+	list-style: none;
+	display: inline-block;
+	height: 14px;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2.1px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #373737;
+}
+
+
+footer li:first-child {
+	border-right: 1px solid #16a085;
+	padding-right: 9px;
+}
+
+footer li:nth-child(2){
+	border-right: 1px solid #16a085;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+footer li:last-child {
+	padding-left: 8px;
+}
+
+footer p {
+	margin-top: 23px;
+	font-family: GothamRounded;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2.1px;
+	color: #373737;
+}
+
+.footer_container {
+	display: inline-block;
+	margin-top: 42px;
+}
+
+.footer_logo {
+	display: inline-block;
+	margin-top: 37px;
+}
